@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    background-color: #EAE5DF;
+    padding: 0 20px;
+}
+
+p {
+    font-weight: 300;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 150px 1fr 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px; 
+    grid-auto-rows: minmax(100px, auto);
+}
+
+.block {
+    border: 1px solid #000000;
+    border-radius: 30px;
+    padding: 20px;
+}
